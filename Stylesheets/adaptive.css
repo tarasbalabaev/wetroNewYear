@@ -1,0 +1,135 @@
+@media screen and (max-width: 1340px) {
+  #about section {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1340px) {
+  .sidebar {
+    display: none;
+  }
+}
+@media screen and (max-width: 1279px) {
+  #about section img {
+    width: 100%;
+  }
+  #about section div {
+    width: 100%;
+  }
+  #firstSection,
+  #secondSection,
+  #thirdSection {
+    margin: 4vw 0;
+  }
+  #firstSection div:nth-of-type(1),
+  #secondSection div:nth-of-type(2),
+  #thirdSection div:nth-of-type(1) {
+    padding: 0 18vw;
+  }
+}
+@media screen and (max-width: 1024px) {
+  img,
+  hr {
+    width: 100%;
+  }
+  #main .card {
+    width: 96%;
+  }
+  #main h2 {
+    font-size: 3.125vw;
+  }
+  #main p {
+    font-size: 2vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  p,
+  ol,
+  ul,
+  blockquote,
+  hr {
+    /* вариант 1: ширина уже родителя + margin: 0 auto
+    width: 94px; */
+
+    /* вариант 2: ширина 100 + отступы через паддинг */
+    width: 100%;
+    padding: 20px;
+  }
+  blockquote::before {
+    left: 0;
+  }
+  #firstSection div:nth-of-type(1),
+  #secondSection div:nth-of-type(2),
+  #thirdSection div:nth-of-type(1) {
+    padding: 0 30px;
+  }
+
+  #fourthSection h2,
+  #fourthSection p {
+    text-align: left;
+  }
+
+  #about #fourthSection {
+    margin-bottom: 10vw;
+  }
+}
+@media screen and (max-width: 500px) {
+  .menubar {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .menubar a {
+    font-size: 20px;
+  }
+
+  #main .card {
+    width: 100vw;
+    font-size: 5.2vw;
+  }
+
+  #main h2 {
+    font-size: 7vw;
+  }
+
+  #main p {
+    font-size: 5.2vw;
+    line-height: 1.3;
+  }
+
+  #main .cardImage {
+    height: 96vw;
+  }
+
+  #main section {
+    margin-top: 100px;
+  }
+
+  nav.menubar {
+    flex-direction: column;
+    height: 80px;
+    gap: 16px;
+  }
+
+  nav.menubar a {
+    font-size: 21px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  #main section {
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 96vw;
+    margin: 60px auto 0;
+  }
+
+  #main .card {
+    width: 47vw;
+  }
+}

@@ -1,0 +1,350 @@
+/* Стили для страницы */
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "PT Sans", sans-serif;
+}
+#article h1,
+#article h2,
+#article h3,
+#article h4,
+#article h5,
+#article p,
+#article ol,
+#article ul,
+#article blockquote,
+#article hr {
+  width: 700px;
+  margin: 0 auto;
+}
+#article img {
+  width: 1024px;
+  display: block;
+  margin: 0 auto;
+}
+
+#article h1,
+#article h2,
+#article h3,
+#article h4,
+#article h5 {
+  font-family: "PT Sans Caption", sans-serif;
+  font-weight: bold;
+}
+
+#article p,
+#article ol,
+#article ul,
+#article blockquote {
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+#article h1 + p {
+  color: rgba(0, 0, 0, 0.4);
+}
+#article a {
+  color: inherit;
+}
+
+#article h1 {
+  margin: 50px auto;
+  font-size: 38px;
+  line-height: 45px;
+}
+
+#article h2 {
+  margin-top: 40px;
+  font-size: 32px;
+  list-style: 36px;
+}
+
+#article h3 {
+  margin-top: 36px;
+  font-size: 28px;
+  line-height: 32px;
+}
+
+#article h4 {
+  margin-top: 32px;
+  font-size: 24px;
+  line-height: 28px;
+}
+#article h5 {
+  margin-top: 28px;
+  font-size: 22px;
+  list-style: 24px;
+}
+
+#article hr {
+  margin: 12px auto;
+  width: 1024px;
+}
+
+#article h2 + p,
+#article h3 + p,
+#article h4 + p,
+#article h5 + p {
+  margin-top: 10px;
+}
+
+#article ul {
+  list-style-type: disc;
+  padding-left: 32px;
+}
+
+#article ol {
+  list-style-type: decimal;
+  padding-left: 32px;
+}
+
+#article li {
+  margin: 10px auto;
+}
+
+#article blockquote {
+  font-style: italic;
+  position: relative;
+}
+
+#article blockquote::before {
+  content: "";
+  width: 3px;
+  height: 100%;
+  position: absolute;
+  background-color: #000;
+  top: 0;
+  left: -17px;
+}
+
+/* стили для бокового меню */
+.sidebar {
+  width: 280px;
+  position: fixed;
+  top: 50px;
+  left: 0;
+  opacity: 30%;
+  transition: all ease 0.3s;
+}
+.sidebar:hover {
+  opacity: 1;
+  transition: all ease 0.6s;
+}
+#article .sidebar ol,
+.sidebar ol {
+  width: 100%;
+  font-size: 15px;
+  line-height: 100%;
+  margin: 10px 0;
+  list-style-type: none;
+  padding-left: 12px;
+}
+.sidebar ol ol {
+  color: rgba(0, 0, 0, 0.4);
+}
+.sidebar li {
+  font-size: inherit;
+  max-width: 6px 0;
+}
+.sidebar a {
+  font-size: inherit;
+  text-decoration: none;
+}
+.menubar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  box-shadow: 0 2px 6px 0 #00000030;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  height: 46px;
+}
+#article .menubar img,
+.menubar img {
+  width: 350px;
+  margin: 0;
+}
+.menubar a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.4);
+}
+.menubar a:hover {
+  transition: all ease 0.6s;
+  color: black;
+}
+
+/* Стили для эбаут */
+#about {
+  overflow-x: hidden;
+}
+
+/* #about::after {
+  content: "";
+  background-image: url("../images/1440.png");
+  width: 1440px;
+  height: 3120px;
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 720px);
+  opacity: 0.2;
+} */
+
+#about section {
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#about section div {
+  width: 48%;
+}
+
+#about h2 {
+  margin: 0;
+  width: 100%;
+  font-weight: normal;
+  font-size: 38px;
+  line-height: 46px;
+}
+
+#about p {
+  margin: 0;
+  width: 100%;
+}
+
+#about #firstSection {
+  margin-top: 86px;
+}
+#firstSection img {
+  width: 1100px;
+}
+
+#firstSection div:nth-of-type(1) {
+  padding: 40px 0 0 110px;
+}
+
+#secondSection img {
+  width: 670px;
+  padding-left: 20px;
+}
+
+#about #secondSection {
+  margin-top: 96px;
+}
+
+#secondSection div:nth-of-type(2) {
+  padding: 50px 20px 0 12px;
+}
+
+#about #thirdSection {
+  margin-top: 190px;
+  border-bottom: 1px solid #6c6c6c;
+}
+
+#thirdSection div:nth-of-type(3) {
+  padding: 110px;
+}
+
+#thirdSection img {
+  width: 1050px;
+  padding: 10px 0 0 10px;
+  border-left: 1px solid gray;
+}
+
+#about #fourthSection {
+  flex-direction: column;
+  width: 700px;
+  align-items: center;
+  padding: 120px 0;
+}
+
+#fourthSection h2,
+#fourthSection p {
+  text-align: center;
+}
+
+#about #fourthSection div {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#fourthSection a {
+  text-decoration: none;
+  border: 1px solid gray;
+  color: gray;
+  padding: 18px 36px;
+  border-radius: 4px;
+}
+#fourthSection a:hover {
+  border: 1px solid black;
+  color: black;
+  transition: all ease 0.6s;
+}
+#fourthSection a.black {
+  color: #eee;
+  background-color: #343434;
+  border: 1px solid #343434;
+}
+
+#fourthSection a.black:hover {
+  background-color: #000;
+  border: 1px solid #000;
+}
+
+/* Главная с карточками */
+#main {
+  background-color: #eee;
+}
+
+#main .card {
+  display: block;
+  background-color: #fff;
+  width: 54vw;
+  padding: 1.6vw;
+  gap: 16px;
+  flex-direction: column;
+  text-decoration: none;
+  color: #141;
+}
+
+#main section {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  align-items: center;
+}
+
+#main h2 {
+  font-size: 1.8vw;
+  font-weight: bold;
+  padding-top: 1.2vw;
+}
+
+#main p {
+  font-size: 1.25vw;
+  padding-top: 1.2vw;
+}
+
+#main .cardImage {
+  width: 100%;
+  height: 15.6vw;
+  background-image: url(../images/narkomfin.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  padding: 1.2vw;
+}
