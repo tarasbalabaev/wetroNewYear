@@ -88,6 +88,7 @@
   #footer {
     height: 46.28vw;
     background-image: url(../Images/1024/Back_Footer.png);
+    background-position: center;
     align-content: flex-end;
   }
 
@@ -119,7 +120,7 @@
   #comic_2 {
     flex-direction: column;
     justify-content: space-between;
-    height: 135vw;
+    height: 150vw;
   }
   .one_to_one {
     width: 97.918vw;
@@ -128,6 +129,7 @@
 
   .two_to_one {
     width: 97.918vw;
+    height: 48.959vw;
   }
 
   #vertical .two_to_one {
