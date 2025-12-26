@@ -1,0 +1,323 @@
+@keyframes Flat {
+  0% {
+    background-image: url(../Images/Animations/Flat/1.png);
+  }
+  25% {
+    background-image: url(../Images/Animations/Flat/2.png);
+  }
+  50% {
+    background-image: url(../Images/Animations/Flat/3.png);
+  }
+  75% {
+    background-image: url(../Images/Animations/Flat/4.png);
+  }
+  100% {
+    background-image: url(../Images/Animations/Flat/5.png);
+  }
+}
+
+@keyframes Alt_Flat {
+  0% {
+    background-image: url(../Images/Animations/Flat/6.png);
+  }
+  50% {
+    background-image: url(../Images/Animations/Flat/7.png);
+  }
+  100% {
+    background-image: url(../Images/Animations/Flat/8.png);
+  }
+}
+
+@keyframes Christmas_tree {
+  0% {
+    background-image: url(../Images/Animations/Christmas_tree/1.png);
+  }
+  25% {
+    background-image: url(../Images/Animations/Christmas_tree/2.png);
+  }
+  50% {
+    background-image: url(../Images/Animations/Christmas_tree/3.png);
+  }
+  75% {
+    background-image: url(../Images/Animations/Christmas_tree/4.png);
+  }
+  100% {
+    background-image: url(../Images/Animations/Christmas_tree/5.png);
+  }
+}
+
+@keyframes Alt_Christmas_tree {
+  0% {
+    background-image: url(../Images/Animations/Christmas_tree/6.png);
+  }
+  50% {
+    background-image: url(../Images/Animations/Christmas_tree/7.png);
+  }
+  100% {
+    background-image: url(../Images/Animations/Christmas_tree/8.png);
+  }
+}
+
+@keyframes Near_Metro {
+  0% {
+    background-image: url(../Images/Animations/Near_metro/1.png);
+  }
+  25% {
+    background-image: url(../Images/Animations/Near_metro/2.png);
+  }
+  50% {
+    background-image: url(../Images/Animations/Near_metro/3.png);
+  }
+  75% {
+    background-image: url(../Images/Animations/Near_metro/4.png);
+  }
+  100% {
+    background-image: url(../Images/Animations/Near_metro/5.png);
+  }
+}
+
+@keyframes Alt_Near_Metro {
+  0% {
+    background-image: url(../Images/Animations/Near_Metro/6.png);
+  }
+  50% {
+    background-image: url(../Images/Animations/Near_Metro/7.png);
+  }
+  100% {
+    background-image: url(../Images/Animations/Near_Metro/8.png);
+  }
+}
+
+@keyframes Idea {
+  0% {
+    background-image: url(../Images/Animations/Idea/1.png);
+  }
+  25% {
+    background-image: url(../Images/Animations/Idea/2.png);
+  }
+  50% {
+    background-image: url(../Images/Animations/Idea/3.png);
+  }
+  75% {
+    background-image: url(../Images/Animations/Idea/4.png);
+  }
+  100% {
+    background-image: url(../Images/Animations/Idea/5.png);
+  }
+}
+
+@keyframes Alt_Idea {
+  0% {
+    background-image: url(../Images/Animations/Idea/6.png);
+  }
+  50% {
+    background-image: url(../Images/Animations/Idea/7.png);
+  }
+  100% {
+    background-image: url(../Images/Animations/Idea/8.png);
+  }
+}
+
+@keyframes In_Metro {
+  0% {
+    background-image: url(../Images/Animations/In_Metro/1.png);
+  }
+  25% {
+    background-image: url(../Images/Animations/In_Metro/2.png);
+  }
+  50% {
+    background-image: url(../Images/Animations/In_Metro/3.png);
+  }
+  75% {
+    background-image: url(../Images/Animations/In_Metro/4.png);
+  }
+  100% {
+    background-image: url(../Images/Animations/In_Metro/5.png);
+  }
+}
+
+@keyframes Alt_In_Metro {
+  0% {
+    background-image: url(../Images/Animations/In_Metro/6.png);
+  }
+  50% {
+    background-image: url(../Images/Animations/In_Metro/7.png);
+  }
+  100% {
+    background-image: url(../Images/Animations/In_Metro/8.png);
+  }
+}
+
+@keyframes Pair_Search {
+  0% {
+    background-image: url(../Images/Animations/Pair_Search/1.png);
+  }
+  25% {
+    background-image: url(../Images/Animations/Pair_Search/2.png);
+  }
+  50% {
+    background-image: url(../Images/Animations/Pair_Search/3.png);
+  }
+  75% {
+    background-image: url(../Images/Animations/Pair_Search/4.png);
+  }
+  100% {
+    background-image: url(../Images/Animations/Pair_Search/5.png);
+  }
+}
+
+@keyframes Alt_Pair_Search {
+  0% {
+    background-image: url(../Images/Animations/Pair_Search/6.png);
+  }
+  50% {
+    background-image: url(../Images/Animations/Pair_Search/7.png);
+  }
+  100% {
+    background-image: url(../Images/Animations/Pair_Search/8.png);
+  }
+}
+
+@keyframes She {
+  0% {
+    background-image: url(../Images/Animations/She/1.png);
+  }
+  25% {
+    background-image: url(../Images/Animations/She/2.png);
+  }
+  50% {
+    background-image: url(../Images/Animations/She/3.png);
+  }
+  75% {
+    background-image: url(../Images/Animations/She/4.png);
+  }
+  100% {
+    background-image: url(../Images/Animations/She/5.png);
+  }
+}
+
+@keyframes Alt_She {
+  0% {
+    background-image: url(../Images/Animations/She/6.png);
+  }
+  50% {
+    background-image: url(../Images/Animations/She/7.png);
+  }
+  100% {
+    background-image: url(../Images/Animations/She/8.png);
+  }
+}
+
+@keyframes He {
+  0% {
+    background-image: url(../Images/Animations/He/1.png);
+  }
+  25% {
+    background-image: url(../Images/Animations/He/2.png);
+  }
+  50% {
+    background-image: url(../Images/Animations/He/3.png);
+  }
+  75% {
+    background-image: url(../Images/Animations/He/4.png);
+  }
+  100% {
+    background-image: url(../Images/Animations/He/5.png);
+  }
+}
+
+@keyframes Alt_He {
+  0% {
+    background-image: url(../Images/Animations/He/6.png);
+  }
+  50% {
+    background-image: url(../Images/Animations/He/7.png);
+  }
+  100% {
+    background-image: url(../Images/Animations/He/8.png);
+  }
+}
+
+@keyframes End {
+  0% {
+    background-image: url(../Images/Animations/End/1.png);
+  }
+  25% {
+    background-image: url(../Images/Animations/End/2.png);
+  }
+  50% {
+    background-image: url(../Images/Animations/End/3.png);
+  }
+  75% {
+    background-image: url(../Images/Animations/End/4.png);
+  }
+  100% {
+    background-image: url(../Images/Animations/End/5.png);
+  }
+}
+
+@keyframes Alt_End {
+  0% {
+    background-image: url(../Images/Animations/End/6.png);
+  }
+  50% {
+    background-image: url(../Images/Animations/End/7.png);
+  }
+  100% {
+    background-image: url(../Images/Animations/End/8.png);
+  }
+}
+
+@keyframes Warning_1 {
+  0% {
+    transform: translateX(0vw);
+  }
+
+  40% {
+    transform: translateX(5vw);
+  }
+
+  80% {
+    transform: translateX(-100vw);
+  }
+
+  100% {
+    transform: translateX(0vw);
+  }
+}
+
+@keyframes Warning_2 {
+  0% {
+    transform: translateX(0vw);
+  }
+
+  40% {
+    transform: translateX(-5vw);
+  }
+
+  80% {
+    transform: translateX(100vw);
+  }
+
+  100% {
+    transform: translateX(0vw);
+  }
+}
+
+@keyframes Time {
+  0% {
+    rotate: 0deg;
+  }
+  100% {
+    rotate: 360deg;
+  }
+}
+
+@keyframes Jump {
+  0% {
+    transform: translateY(0vw);
+  }
+  100% {
+    transform: translateY(-1vw);
+  }
+}
