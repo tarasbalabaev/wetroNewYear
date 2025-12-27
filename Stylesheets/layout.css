@@ -34,7 +34,7 @@ h2 {
 #first_line,
 #problem,
 #comic_1 {
-  cursor: url(../Images/Cursors/Line_1.svg), auto;
+  cursor: url(../Images/Cursors/Line_11.svg), auto;
 }
 
 #we_have,
@@ -49,7 +49,7 @@ h2 {
 #comic_5,
 #final,
 #footer {
-  cursor: url(../Images/Cursors/Line_2.svg), auto;
+  cursor: url(../Images/Cursors/Line_12.svg), auto;
 }
 
 .one_to_one {
