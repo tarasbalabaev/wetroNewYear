@@ -10,6 +10,11 @@ body {
   background-color: black;
 }
 
+::selection {
+  color: #000000;
+  background-color: #ffbc00;
+}
+
 body h1,
 h2,
 p {
